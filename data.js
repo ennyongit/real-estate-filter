@@ -45,6 +45,6 @@ const properties = [
     city: "თბილისი",
     district: "დიღომი",
     street: "მუხაძის ქუჩა",
-     status: "ქირავდება"
+     status: "ქირავდება დღიურად"
   }
 ];
