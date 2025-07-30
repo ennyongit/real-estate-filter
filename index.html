@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="section-container">
+            <div class="filter-option">
+               <div>
+                    <select class="transaction-type" name="" id="" value="">
+                        // გამოიტანს ქალაქებს დინამიურად
+                        <option value="გარიგების ტიპი" selected>გარიგების ტიპი</option>
+                        <option value="იყიდება">იყიდება</option>
+                        <option value="ქირავდება">ქირავდება</option>
+                        <option value="ქირავდება დღიურად">ქირავდება დღიურად</option>
+                </select>
+               </div>
+            </div>
+            <div class="top-search-container">
+                <input type="text" placeholder="ძებნა..." id="search-input">
+                <button id="search-button">ძებნა</button>
+            </div>
+            <div>
+                <button class="filter">ფილტრაცია</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="/data.js"></script>
+    <script src="/script.js"></script>
+</body>
+</html>
